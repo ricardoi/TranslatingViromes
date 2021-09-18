@@ -1,0 +1,70 @@
+3	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus	Maize yellow dwarf virus				
+4	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize yellow dwarf virus					
+5	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize yellow dwarf virus	Maize streak virus				
+6	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus					
+7	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus	Maize yellow dwarf virus				
+8	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus					
+9	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus	Maize yellow dwarf virus				
+10	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus	Maize yellow dwarf virus				
+11	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus					
+12	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus					
+13	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus	Maize dwarf mosaic virus	Maize yellow dwarf virus			
+14	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus					
+15	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus	Maize yellow dwarf virus				
+16	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus	Maize yellow dwarf virus				
+17	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus					
+18	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus					
+19	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus					
+20	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus					
+21	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus					
+22	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus	Maize yellow dwarf virus				
+23	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus	Maize yellow dwarf virus				
+24	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus					
+25	Maize yellow mosaic virus	 Sugarcane mosaic virus	Maize streak virus	 Maize chlorotic mottle virus 				
+26	Maize yellow mosaic virus	Sugarcane mosaic virus	Maize streak virus	Maize yellow dwarf virus	Iranian johnsongrass mosaic virus			
+27	Maize yellow dwarf virus	Sugarcane mosaic virus	Maize streak virus	Maize Chlorotic mottle virus				
+28	Maize yellow mosaic virus	Sugarcane mosaic virus	Maize streak virus	Maize Chlorotic mottle virus	Hubei Poty-like virus 1	Telosma mosaic virus	Potato virus V	Scallion mosaic virus
+29	Sugarcane mosaic virus	Maize streak virus	Maize chlorotic mottle virus					
+30	Maize yellow dwarf virus	Sugarcane mosaic virus	Maize streak virus	Maize chlorotic mottle virus 				
+31	Maize streak virus	Sugarcane mosaic virus	Maize chlorotic mottle virus					
+32	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus	Maize yellow dwarf virus				
+33	Maize yellow dwarf virus	Maize streak virus	Maize chlorotic mottle virus	Barley virus G	Lily mottle virus	Sugarcane mosaic virus		
+34	Maize yellow dwarf virus	Maize chlorotic mottle virus 	Maize streak virus	Sugarcane mosaic virus				
+35	Maize chlorotic mottle virus	Maize streak virus	Sugarcane mosaic virus					
+36	Maize yellow dwarf virus	Maize chlorotic mottle virus	Maize streak virus	Sugarcane mosaic virus				
+37	Maize yellow dwarf virus	Maize chlorotic mottle virus	Maize streak virus	Sugarcane mosaic virus				
+38	Maize yellow dwarf virus	Maize chlorotic mottle virus 	Maize streak virus	Sugarcane mosaic virus	Maize dwarf mosaic virus	Sorghum mosaic virus		
+39	Maize yellow dwarf virus	Maize chlorotic mottle virus 	Maize streak virus	Sugarcane mosaic virus	Maize dwarf mosaic virus			
+40	Maize yellow dwarf virus	Maize chlorotic mottle virus	Maize streak virus	Sugarcane mosaic virus	Maize dwarf mosaic virus	Hubei Poty-like virus 1	Barley virus G	
+41	Maize yellow dwarf virus	Sugarcane mosaic virus	Maize streak virus	Maize chlorotic mottle virus 	Barley virus G	Tobacco vein distorting virus	Hubei Poty-like virus 1	
+42	Maize yellow mosaic virus	Sugarcane mosaic virus	Maize streak virus	Maize chlorotic mottle virus	Barley virus G	Telosma mosaic virus	Maize yellow dwarf virus	
+43	Sugarcane mosaic virus	Maize streak virus	Maize chlorotic mottle virus					
+44	Sugarcane mosaic virus	Maize streak virus	Maize chlorotic mottle virus	Maize yellow mosaic virus				
+45	Sugarcane mosaic virus	Maize streak virus	Maize chlorotic mottle virus	Maize yellow dwarf virus				
+46	Sugarcane mosaic virus	Maize streak virus	Maize chlorotic mottle virus					
+47	Sugarcane mosaic virus	Maize streak virus	Maize chlorotic mottle virus 					
+48	Sugarcane mosaic virus	Maize streak virus	Maize chlorotic mottle virus	Maize yellow dwarf virus				
+49	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize yellow mosaic virus					
+50	Maize chlorotic mottle virus	Sugarcane mosaic virus						
+51	Maize chlorotic mottle virus	Maize streak virus						
+52	Maize chlorotic mottle virus	Sugarcane mosaic virus						
+53	Maize chlorotic mottle virus	Maize streak virus						
+54	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus	Maize yellow dwarf virus				
+55	Maize chlorotic mottle virus							
+56	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize yellow mosaic virus					
+57	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus					
+58	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize streak virus	Sorghum mosaic virus	Maize yellow mosaic virus			
+59	Maize chlorotic mottle virus	Maize streak virus						
+60	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize yellow dwarf virus 2					
+61	Maize chlorotic mottle virus							
+62	Maize chlorotic mottle virus	Sorghum mosaic virus	Sugarcane mosaic virus					
+63	Maize chlorotic mottle virus	Maize streak virus						
+64	Maize chlorotic mottle virus	Sugarcane mosaic virus						
+65	Maize chlorotic mottle virus	Maize streak virus						
+66	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize yellow mosaic virus					
+67	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize yellow mosaic virus	Sorghum mosaic virus				
+68	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize yellow dwarf virus					
+69	Maize chlorotic mottle virus	Sugarcane mosaic virus	Maize yellow dwarf virus					
+70	Maize chlorotic mottle virus	Sugarcane mosaic virus						
+71	Maize chlorotic mottle virus	Maize streak virus						
+72	Maize chlorotic mottle virus	Sugarcane mosaic virus						
