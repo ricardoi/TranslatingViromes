@@ -43,10 +43,10 @@ virome1=vsam
 x=list()
 Species <- unique(virome1$Species)
 for (i in seq_along(Species)){
-x[[i]] <- ifelse(Species[i] %in% c("Maize yellow dwarf virus", "Sugarcane mosaic virus",
-                          "Maize dwarf mosic virus", "Iranian johnsongrass mosaic virus",
-                          "Scallion mosaic virus", "Potato virus V", "Telosma mosaic virus",
-                          "Lily mottle virus", "Sorghum mosaic virus" ), "Potyvirus",
+x[[i]] <- ifelse(Species[i] %in% c("Sugarcane mosaic virus", "Maize dwarf mosaic virus",
+                                   "Iranian johnsongrass mosaic virus", "Scallion mosaic virus",
+                                   "Potato virus V", "Telosma mosaic virus",
+                                   "Lily mottle virus", "Sorghum mosaic virus" ), "Potyvirus",
                 ifelse(Species[i] %in% c( "Maize chlorotic mottle virus"), "Machlomovirus",
                        ifelse(Species[i] %in% c("Maize yellow dwarf virus", "Maize yellow mosaic virus", "Barley virus G",
                                                 "Tobacco vein distorting virus", "Maize yellow dwarf virus 2"), "Polerovirus",
@@ -57,6 +57,20 @@ x[[i]] <- ifelse(Species[i] %in% c("Maize yellow dwarf virus", "Sugarcane mosaic
 taxa<- data.frame(Species, "Genus"=unlist(x))
 virome1$freq <- rep(1, nrow(virome1))
 virome1 = merge(virome1, taxa, by="Species")
+
+#----- Custom Algorithm to create VMUs
+for (i in seq_along(Species)){
+  x[[i]] <- ifelse(Species[i] %in% c("Sugarcane mosaic virus","Maize dwarf mosaic virus",
+                                     "Iranian johnsongrass mosaic virus", "Sorghum mosaic virus" ), "VMU1",
+                   ifelse(Species[i] %in% c( "Maize chlorotic mottle virus"), "VMU2",
+                          ifelse(Species[i] %in% c("Maize yellow dwarf virus", "Maize yellow mosaic virus", "Barley virus G",
+                                                   "Tobacco vein distorting virus", "Maize yellow dwarf virus 2"), "VMU3",
+                                 ifelse(Species[i] %in% c("Maize streak virus"), "VMu4",
+                                        "VMUx"))))
+}
+VMUs <- data.frame(Species, "VMU"=unlist(x))
+virome1 = merge(virome1, VMUs, by="Species")
+
 
 #---- Generating hist plots
 #-- libraries
@@ -82,17 +96,22 @@ library(tidyverse)
 RbPal <- viridis(c(length(unique(virome1$Genus))))
 
 virome1 <- virome1 %>%
-  mutate( ss = paste(Genus), # pasting two groups for a special category coloring
-          cols = RbPal[ match(ss, sort(unique(ss))) ]
+  mutate( #ss = paste(Genus, Family), # pasting two groups for a special category coloring
+          cols = RbPal[ match(Genus, sort(unique(Genus))) ]
   )
 
-alluvial(virome1[,c(4,1)], freq=virome1$freq,
-         #hide = datc$length == 0,
+head(virome1)
+
+alluvial(virome1[,c(4,1,5)], freq=virome1$freq,
+         #hide = virome1$length == 0,
          col = virome1$cols,
          border = virome1$cols,
          alpha = 0.9,
          blocks = FALSE,
-         ordering = list(NULL, order(as.factor(virome1$freq))),
+         ordering = list(NULL, sort(virome1$Species), sort(virome1$VMU)),
          # change NULL to order them
          cex =0.8
 )
+
+
+
