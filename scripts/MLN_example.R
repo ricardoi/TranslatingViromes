@@ -58,15 +58,46 @@ taxa<- data.frame(Species, "Genus"=unlist(x))
 virome1$freq <- rep(1, nrow(virome1))
 virome1 = merge(virome1, taxa, by="Species")
 
+#----- Custom Algorithm to create vectors
+for (i in seq_along(Species)){
+  x[[i]] <- ifelse(Species[i] %in% c("Sugarcane mosaic virus", "Maize dwarf mosaic virus",
+                                     "Iranian johnsongrass mosaic virus", "Scallion mosaic virus",
+                                     "Potato virus V", "Telosma mosaic virus",
+                                     "Lily mottle virus", "Sorghum mosaic virus" ), "aphid",
+                   ifelse(Species[i] %in% c( "Maize chlorotic mottle virus"), "beetles",
+                          ifelse(Species[i] %in% c("Maize yellow dwarf virus", "Maize yellow mosaic virus", "Barley virus G",
+                                                   "Tobacco vein distorting virus", "Maize yellow dwarf virus 2"), "aphid",
+                                 ifelse(Species[i] %in% c("Maize streak virus"), "grasshoppers",
+                                        "NULL"))))
+}
+vectors <- data.frame(Species, "vector"=unlist(x))
+virome1 = merge(virome1, vectors, by="Species")
+
+#----- Custom Algorithm to create vectors
+for (i in seq_along(Species)){
+  x[[i]] <- ifelse(Species[i] %in% c("Sugarcane mosaic virus", "Maize dwarf mosaic virus",
+                                     "Iranian johnsongrass mosaic virus", "Scallion mosaic virus",
+                                     "Potato virus V", "Telosma mosaic virus",
+                                     "Lily mottle virus", "Sorghum mosaic virus" ), "mechanical",
+                   ifelse(Species[i] %in% c( "Maize chlorotic mottle virus"), "mechanical",
+                          ifelse(Species[i] %in% c("Maize yellow dwarf virus", "Maize yellow mosaic virus", "Barley virus G",
+                                                   "Tobacco vein distorting virus", "Maize yellow dwarf virus 2"), "vector-only",
+                                 ifelse(Species[i] %in% c("Maize streak virus"), "vector-only",
+                                        "NULL"))))
+}
+transmission <- data.frame(Species, "transmission"=unlist(x))
+virome1 = merge(virome1, transmission, by="Species")
+
+
 #----- Custom Algorithm to create VMUs
 for (i in seq_along(Species)){
   x[[i]] <- ifelse(Species[i] %in% c("Sugarcane mosaic virus","Maize dwarf mosaic virus",
                                      "Iranian johnsongrass mosaic virus", "Sorghum mosaic virus" ), "VMU1",
-                   ifelse(Species[i] %in% c( "Maize chlorotic mottle virus"), "VMU2",
+                   ifelse(Species[i] %in% c( "Maize chlorotic mottle virus"), "VMU1",
                           ifelse(Species[i] %in% c("Maize yellow dwarf virus", "Maize yellow mosaic virus", "Barley virus G",
-                                                   "Tobacco vein distorting virus", "Maize yellow dwarf virus 2"), "VMU3",
-                                 ifelse(Species[i] %in% c("Maize streak virus"), "VMu4",
-                                        "VMUx"))))
+                                                   "Tobacco vein distorting virus", "Maize yellow dwarf virus 2"), "VMU1",
+                                 ifelse(Species[i] %in% c("Maize streak virus"), "VMU2",
+                                        "VMU1"))))
 }
 VMUs <- data.frame(Species, "VMU"=unlist(x))
 virome1 = merge(virome1, VMUs, by="Species")
@@ -102,13 +133,13 @@ virome1 <- virome1 %>%
 
 head(virome1)
 
-alluvial(virome1[,c(4,1,5)], freq=virome1$freq,
+alluvial(virome1[,c(1,4,5,6,7)], freq=virome1$freq,
          #hide = virome1$length == 0,
          col = virome1$cols,
          border = virome1$cols,
          alpha = 0.9,
          blocks = FALSE,
-         ordering = list(NULL, sort(virome1$Species), sort(virome1$VMU)),
+         ordering = list(NULL, sort(virome1$Species), NULL, NULL, sort(virome1$VMU)),
          # change NULL to order them
          cex =0.8
 )
