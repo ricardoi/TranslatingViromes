@@ -30,3 +30,18 @@ viromeb <- bermudagrass_virome %>%
   summarise(Cov = mean(Coverage), n=n()) # differences mean
 
 viromeb
+
+#---- Generating hist plots
+#-- libraries
+#library(ggplot2)
+library(tidytext)
+library(viridis)
+
+
+ggplot(viromeb, aes(x=reorder(Exp, Species), y=(n), fill=Genus)) +
+  geom_bar(position="fill", stat="identity", width = 1, alpha = 0.75)+
+  ggtitle("Virome genus frequency of MLN virome in Kenya") +
+  facet_grid(scales = "free", space = "free") +
+  scale_fill_viridis(discrete = T, option = "C") +
+  scale_x_reordered() +
+  theme_bw()
