@@ -103,6 +103,87 @@ VMUs <- data.frame(Species, "VMU"=unlist(x))
 virome1 = merge(virome1, VMUs, by="Species")
 
 
+#----- Custom Algorithm to create seed transmitted
+for (i in seq_along(Species)){
+  x[[i]] <- ifelse(Species[i] %in% c("Sugarcane mosaic virus","Maize dwarf mosaic virus",
+                                     "Iranian johnsongrass mosaic virus", "Sorghum mosaic virus" ), "seed",
+                   ifelse(Species[i] %in% c( "Maize chlorotic mottle virus"), "seed",
+                          ifelse(Species[i] %in% c("Maize yellow dwarf virus", "Maize yellow mosaic virus", "Barley virus G",
+                                                   "Tobacco vein distorting virus", "Maize yellow dwarf virus 2"), "seed",
+                                 ifelse(Species[i] %in% c("Maize streak virus"), "not seed",
+                                        "unknown"))))
+}
+VMUs <- data.frame(Species, "seedtr"=unlist(x))
+virome1 = merge(virome1, VMUs, by="Species")
+
+#----- Custom Algorithm to create resistance
+for (i in seq_along(Species)){
+  x[[i]] <- ifelse(Species[i] %in% c("Sugarcane mosaic virus","Maize dwarf mosaic virus",
+                                     "Iranian johnsongrass mosaic virus", "Sorghum mosaic virus" ), "resistance",
+                   ifelse(Species[i] %in% c( "Maize chlorotic mottle virus"), "tolerance",
+                          ifelse(Species[i] %in% c("Maize yellow dwarf virus", "Maize yellow mosaic virus", "Barley virus G",
+                                                   "Tobacco vein distorting virus", "Maize yellow dwarf virus 2"), "unknown",
+                                 ifelse(Species[i] %in% c("Maize streak virus"), "unknown",
+                                        "unknown"))))
+}
+VMUs <- data.frame(Species, "resistance"=unlist(x))
+virome1 = merge(virome1, VMUs, by="Species")
+
+#----- Custom Algorithm to create resistance
+for (i in seq_along(Species)){
+  x[[i]] <- ifelse(Species[i] %in% c("Sugarcane mosaic virus","Maize dwarf mosaic virus",
+                                     "Iranian johnsongrass mosaic virus", "Sorghum mosaic virus" ), "effective",
+                   ifelse(Species[i] %in% c( "Maize chlorotic mottle virus"), "effective",
+                          ifelse(Species[i] %in% c("Maize yellow dwarf virus", "Maize yellow mosaic virus", "Barley virus G",
+                                                   "Tobacco vein distorting virus", "Maize yellow dwarf virus 2"), "ineffective",
+                                 ifelse(Species[i] %in% c("Maize streak virus"), "ineffective",
+                                        "unknown"))))
+}
+VMUs <- data.frame(Species, "sanitizing"=unlist(x))
+virome1 = merge(virome1, VMUs, by="Species")
+
+#----- Custom Algorithm to create antifeedant
+for (i in seq_along(Species)){
+  x[[i]] <- ifelse(Species[i] %in% c("Sugarcane mosaic virus","Maize dwarf mosaic virus",
+                                     "Iranian johnsongrass mosaic virus", "Sorghum mosaic virus" ), "effective",
+                   ifelse(Species[i] %in% c( "Maize chlorotic mottle virus"), "ineffective",
+                          ifelse(Species[i] %in% c("Maize yellow dwarf virus", "Maize yellow mosaic virus", "Barley virus G",
+                                                   "Tobacco vein distorting virus", "Maize yellow dwarf virus 2"), "ineffective",
+                                 ifelse(Species[i] %in% c("Maize streak virus"), "ineffective",
+                                        "unknown"))))
+}
+VMUs <- data.frame(Species, "antifeedant"=unlist(x))
+virome1 = merge(virome1, VMUs, by="Species")
+
+#----- Custom Algorithm to create insecticide
+for (i in seq_along(Species)){
+  x[[i]] <- ifelse(Species[i] %in% c("Sugarcane mosaic virus","Maize dwarf mosaic virus",
+                                     "Iranian johnsongrass mosaic virus", "Sorghum mosaic virus" ), "ineffective",
+                   ifelse(Species[i] %in% c( "Maize chlorotic mottle virus"), "ineffective",
+                          ifelse(Species[i] %in% c("Maize yellow dwarf virus", "Maize yellow mosaic virus", "Barley virus G",
+                                                   "Tobacco vein distorting virus", "Maize yellow dwarf virus 2"), "ineffective",
+                                 ifelse(Species[i] %in% c("Maize streak virus"), "ineffective",
+                                        "unknown"))))
+}
+VMUs <- data.frame(Species, "insecticide"=unlist(x))
+virome1 = merge(virome1, VMUs, by="Species")
+
+#----- Custom Algorithm to create management
+for (i in seq_along(Species)){
+  x[[i]] <- ifelse(Species[i] %in% c("Sugarcane mosaic virus","Maize dwarf mosaic virus",
+                                     "Iranian johnsongrass mosaic virus", "Sorghum mosaic virus" ), "yes",
+                   ifelse(Species[i] %in% c( "Maize chlorotic mottle virus"), "yes",
+                          ifelse(Species[i] %in% c("Maize yellow dwarf virus", "Maize yellow mosaic virus", "Barley virus G",
+                                                   "Tobacco vein distorting virus", "Maize yellow dwarf virus 2"), "yes",
+                                 ifelse(Species[i] %in% c("Maize streak virus"), "no",
+                                        "unknown"))))
+}
+VMUs <- data.frame(Species, "management"=unlist(x))
+virome1 = merge(virome1, VMUs, by="Species")
+
+
+write.csv(virome1, "data/MLN_Wamaitha18_and-management_data_generated.csv")
+
 #---- Generating hist plots
 #-- libraries
 library(ggplot2)
@@ -133,13 +214,27 @@ virome1 <- virome1 %>%
 
 head(virome1)
 
-alluvial(virome1[,c(1,4,5,6,7)], freq=virome1$freq,
+# original alluvial - minus 8 and 13
+alluvial(virome1[,c(1,4,5,6,8,13,7)], freq=virome1$freq,
          #hide = virome1$length == 0,
          col = virome1$cols,
          border = virome1$cols,
          alpha = 0.9,
          blocks = FALSE,
-         ordering = list(NULL, sort(virome1$Species), NULL, NULL, sort(virome1$VMU)),
+         ordering = list(sort(virome1$Species), sort(virome1$Species), NULL, NULL, NULL, NULL, sort(virome1$VMU)),
+         # change NULL to order them
+         cex =0.8
+)
+
+# alluvial with management strategies
+alluvial(virome1[,c(1,4,5,13,6,8,9,10,11,12,7)], freq=virome1$freq,
+         #hide = virome1$length == 0,
+         col = virome1$cols,
+         border = virome1$cols,
+         alpha = 0.9,
+         blocks = FALSE,
+         ordering = list(NULL, sort(virome1$Species), NULL, NULL, NULL, NULL,
+                         NULL, NULL,NULL, NULL, sort(virome1$VMU)),
          # change NULL to order them
          cex =0.8
 )
