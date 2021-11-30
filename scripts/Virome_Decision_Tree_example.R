@@ -1,3 +1,41 @@
+virome1 <- read.csv("data/MLN_Wamaitha18_and-management_data_generated.csv", as.is = T, 
+                   stringsAsFactors = T)
+virome = virome1[c(8,5,6,7,9,10,11,12,13)]
+virome$VMU <- as.factor(virome$VMU)
+virome$Genus <- as.factor(virome$Genus)
+# virome$Species <- as.factor(virome$Species)
+virome$vector <- as.factor(virome$vector)
+virome$transmission <- as.factor(virome$transmission)
+virome$seedtr <- as.factor(virome$seedtr)
+virome$resistance <- as.factor(virome$resistance)
+virome$sanitizing <- as.factor(virome$sanitizing)
+virome$antifeedant <- as.factor(virome$antifeedant)
+virome$insecticide <- as.factor(virome$insecticide)
+str(virome)
+
+train<-virome[1:180,]
+validate<-virome[181:244,]
+
+#install.packages("party")
+#install.packages("partykit")
+library(party)
+library(partykit)
+
+tree <- ctree(VMU+Genus+transmission+vector+seedtr+resistance+sanitizing+antifeedant+insecticide, data=train)
+plot(tree,type="simple")
+predict(tree,validate,type="prob")
+predict(tree,validate)
+
+#install.packages("rpart")
+#install.packages("rpart.plot")
+library(rpart)
+library(rpart.plot)
+
+tr<-rpart(VMU~Genus+transmission+vector+seedtr+resistance+sanitizing+antifeedant+insecticide, data=train)
+rpart.plot(tr)
+
+
+#-------------
 virome<-matrix(0,nrow=1000,ncol=4)
 colnames(virome)<-c("genus","vector","transmission","VMU")
 
@@ -59,26 +97,3 @@ virome$genus<-as.factor(virome$genus)
 virome$VMU<-as.factor(virome$VMU)
 virome$vector<-as.factor(virome$vector)
 virome$transmission<-as.factor(virome$transmission)
-
-str(virome)
-
-train<-virome[1:800,]
-validate<-virome[801:1000,]
-
-#install.packages("party")
-#install.packages("partykit")
-library(party)
-library(partykit)
-
-tree<-ctree(VMU~genus+transmission+vector,data=train)
-plot(tree,type="simple")
-predict(tree,validate,type="prob")
-predict(tree,validate)
-
-#install.packages("rpart")
-#install.packages("rpart.plot")
-library(rpart)
-library(rpart.plot)
-
-tr<-rpart(VMU~genus+transmission+vector,data=train)
-rpart.plot(tr)
