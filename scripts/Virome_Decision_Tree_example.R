@@ -1,18 +1,18 @@
+library(tidyverse)
+library(dplyr)
+
+# SET YOUR WORKING DIRECTORY TO 
+# setwd("TranslatingViromes")
 virome1 <- read.csv("data/MLN_Wamaitha18_and-management_data_generated.csv", as.is = T, 
                    stringsAsFactors = T)
 virome = virome1[c(8,5,6,7,9,10,11,12,13)]
-virome$VMU <- as.factor(virome$VMU)
-virome$Genus <- as.factor(virome$Genus)
-# virome$Species <- as.factor(virome$Species)
-virome$vector <- as.factor(virome$vector)
-virome$transmission <- as.factor(virome$transmission)
-virome$seedtr <- as.factor(virome$seedtr)
-virome$resistance <- as.factor(virome$resistance)
-virome$sanitizing <- as.factor(virome$sanitizing)
-virome$antifeedant <- as.factor(virome$antifeedant)
-virome$insecticide <- as.factor(virome$insecticide)
+
+virome <- 
+  virome |>
+  mutate(across(where(is.character), as.factor))
 str(virome)
 
+# Subsetting data for training and validation
 train<-virome[1:180,]
 validate<-virome[181:244,]
 
@@ -20,6 +20,12 @@ validate<-virome[181:244,]
 #install.packages("partykit")
 library(party)
 library(partykit)
+
+# Objective 
+# Use of decision tree to recreate the Virome Management Units (VMU)
+# Broadly, we have the taxonomic classification, and we have information about
+# management strategies for each taxonomic group. 
+# The goal would be to (re)create the VMU based on those shared managemets.
 
 tree <- ctree(VMU+Genus+transmission+vector+seedtr+resistance+sanitizing+antifeedant+insecticide, data=train)
 plot(tree,type="simple")
@@ -34,8 +40,8 @@ library(rpart.plot)
 tr<-rpart(VMU~Genus+transmission+vector+seedtr+resistance+sanitizing+antifeedant+insecticide, data=train)
 rpart.plot(tr)
 
-
 #-------------
+# Data generation by B. Etherton
 virome<-matrix(0,nrow=1000,ncol=4)
 colnames(virome)<-c("genus","vector","transmission","VMU")
 
