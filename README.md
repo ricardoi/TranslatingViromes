@@ -9,6 +9,6 @@ Summary: Virome study of MLN in Kenya authored by Wamaitha et al., 2018. This vi
 Summary: Virome study on the Bermudagrass collection that was collected based on evident symptomatology, mild or asymptomatic. In general, it shows the virome composition of Bermudagrass, and how it can be used for breeding programs.
 
 ## Analysis yielding figures:
-• Analytical example of virome management units
-• Machine learning example of virome management units
+• Analytical example of virome management units\
+• Machine learning example of virome management units\
 • Virome composition as symptom expression.
