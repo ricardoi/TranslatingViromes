@@ -40,8 +40,14 @@ library(viridis)
 
 ggplot(viromeb, aes(x=reorder(Exp, Species), y=(n), fill=Genus)) +
   geom_bar(position="fill", stat="identity", width = 1, alpha = 0.75)+
-  ggtitle("Virome genus frequency of MLN virome in Kenya") +
+  ggtitle("Virome genus frequency of bermudagrass virome") +
   facet_grid(scales = "free", space = "free") +
   scale_fill_viridis(discrete = T, option = "C") +
   scale_x_reordered() +
   theme_bw()
+
+
+# trata de crear un plot de presencia ausencia de virus por grupo experimental 
+# y que se vea los virus abundantes vs los no abundantes. 
+
+
