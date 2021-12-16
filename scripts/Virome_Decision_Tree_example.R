@@ -26,6 +26,8 @@ set1<-as.matrix(set1)
 set<-sample(1:244,244,replace=FALSE) #randomly sampling from true data set
 train<-set1[set[1:244],] 
 train<-as.data.frame(train,stringsAsFactors = TRUE)
+#train$antifeedant[which(train$antifeedant=="innefective")]<-"ineffective"
+#train$Species[which(train$Species=="Maize yellow dwarf virus 2")]<-"Maize yellow dwarf virus"
 #train<-rbind(noise,train) #combining true data with noise
 #validate<-set1[set[201:244],] #using the rest of the true data to validate the model
 
