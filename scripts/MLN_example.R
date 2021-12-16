@@ -4,7 +4,7 @@
 #'
 
 #-- Setting working directory
-setwd("git_db/TranslattingViromes/")
+setwd("git_local/TranslattingViromes/")
 
 #-- loading data
 mln_virome <- read.csv("data/Virome_MLN_Kenya_species_Wamaitha18.txt", sep = "\t"
@@ -89,20 +89,6 @@ transmission <- data.frame(Species, "transmission"=unlist(x))
 virome1 = merge(virome1, transmission, by="Species")
 
 
-#----- Custom Algorithm to create VMUs
-for (i in seq_along(Species)){
-  x[[i]] <- ifelse(Species[i] %in% c("Sugarcane mosaic virus","Maize dwarf mosaic virus",
-                                     "Iranian johnsongrass mosaic virus", "Sorghum mosaic virus" ), "VMU1",
-                   ifelse(Species[i] %in% c( "Maize chlorotic mottle virus"), "VMU1",
-                          ifelse(Species[i] %in% c("Maize yellow dwarf virus", "Maize yellow mosaic virus", "Barley virus G",
-                                                   "Tobacco vein distorting virus", "Maize yellow dwarf virus 2"), "VMU1",
-                                 ifelse(Species[i] %in% c("Maize streak virus"), "VMU2",
-                                        "VMU1"))))
-}
-VMUs <- data.frame(Species, "VMU"=unlist(x))
-virome1 = merge(virome1, VMUs, by="Species")
-
-
 #----- Custom Algorithm to create seed transmitted
 for (i in seq_along(Species)){
   x[[i]] <- ifelse(Species[i] %in% c("Sugarcane mosaic virus","Maize dwarf mosaic virus",
@@ -181,6 +167,23 @@ for (i in seq_along(Species)){
 VMUs <- data.frame(Species, "management"=unlist(x))
 virome1 = merge(virome1, VMUs, by="Species")
 
+virome1 <- read.csv("data/MLN_Wamaitha18_and-management_data_generated.csv")
+
+#----- Custom Algorithm to create VMUs
+for (i in seq_along(Species)){
+  x[[i]] <- ifelse(Species[i] %in% c("Sugarcane mosaic virus","Maize dwarf mosaic virus",
+                                     "Iranian johnsongrass mosaic virus", "Sorghum mosaic virus", 
+                                     "Scalion mosaic virus", "Potato virus Y", "Lily mottle virus",
+                                     "Telosma mosaic virus"), "VMU1",
+                   ifelse(Species[i] %in% c( "Maize chlorotic mottle virus"), "VMU4",
+                          ifelse(Species[i] %in% c("Maize yellow dwarf virus", "Maize yellow mosaic virus", "Barley virus G",
+                                                   "Tobacco vein distorting virus", "Maize yellow dwarf virus 2"), "VMU3",
+                                 ifelse(Species[i] %in% c("Maize streak virus"), "VMU2",
+                                        "unassigned"))))
+}
+VMUs <- data.frame(Species, "VMU"=unlist(x))
+virome1 = merge(virome1, VMUs, by="Species")
+
 
 write.csv(virome1, "data/MLN_Wamaitha18_and-management_data_generated.csv")
 
@@ -215,13 +218,13 @@ virome1 <- virome1 %>%
 head(virome1)
 
 # original alluvial - minus 8 and 13
-alluvial(virome1[,c(1,4,5,6,8,13,7)], freq=virome1$freq,
+alluvial(virome1[,c(1,5,6,7,8,14)], freq=virome1$freq,
          #hide = virome1$length == 0,
          col = virome1$cols,
          border = virome1$cols,
          alpha = 0.9,
          blocks = FALSE,
-         ordering = list(sort(virome1$Species), sort(virome1$Species), NULL, NULL, NULL, NULL, sort(virome1$VMU)),
+         ordering = list(sort(virome1$Species), sort(virome1$Species), NULL, NULL, NULL, sort(virome1$VMU)),
          # change NULL to order them
          cex =0.8
 )
