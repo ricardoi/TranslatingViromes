@@ -1,0 +1,427 @@
+Releasing_node,Receiving_node,Link_weight,Germplasm_activity,Species,Plant_type
+Peru,CIP,1,Incoming,Arracacia,Wild species
+Brazil,CIP,20,Incoming,Arracia xanthorrhiza,Conventional variety
+Peru,CIP,12,Incoming,Arracia xanthorrhiza,Conventional variety
+Peru,CIP,4,Incoming,Ipomoea alba,Wild species
+Venezuela,CIP,1,Incoming,Ipomoea alba,Wild species
+Argentina,CIP,11,Incoming,Ipomoea amnicola,Unknown
+Bolivia,CIP,7,Incoming,Ipomoea amnicola,Unknown
+Colombia,CIP,2,Incoming,Ipomoea amnicola,Unknown
+Peru,CIP,2,Incoming,Ipomoea amnicola,Unknown
+Honduras,CIP,1,Incoming,Ipomoea anisomeres,Wild species
+Peru,CIP,1,Incoming,Ipomoea anisomeres,Wild species
+Colombia,CIP,1,Incoming,Ipomoea aquatica,Wild species
+Peru,CIP,1,Incoming,Ipomoea aquatica,Wild species
+Philippines,CIP,1,Incoming,Ipomoea aquatica,Wild species
+Argentina,CIP,2,Incoming,Ipomoea aristolochiaefolia,Wild species
+Ecuador,CIP,3,Incoming,Ipomoea aristolochiaefolia,Wild species
+Peru,CIP,1,Incoming,Ipomoea aristolochiaefolia,Wild species
+Brazil,CIP,2,Incoming,Ipomoeae asarifolia,Wild species
+Ecuador,CIP,5,Incoming,Ipomoeae asarifolia,Wild species
+Mexico,CIP,1,Incoming,Ipomoeae asarifolia,Wild species
+Peru,CIP,22,Incoming,Ipomoeae asarifolia,Wild species
+Brazil,CIP,3,Incoming,Ipomoea behiensis,Wild species
+Argentina,CIP,87,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Australia,CIP,3,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Burundi,CIP,5,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Bangladesh,CIP,4,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Bolivia,CIP,75,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Brazil,CIP,146,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Chile,CIP,1,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+China,CIP,38,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Cameroon,CIP,4,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Cook Islands,CIP,6,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Colombia,CIP,160,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Costa Rica,CIP,40,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Cuba,CIP,81,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Dominican Republic,CIP,65,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Ecuador,CIP,154,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Egypt,CIP,2,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Spain,CIP,1,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Fiji,CIP,4,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Guatemala,CIP,89,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Hong Kong,CIP,1,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Honduras,CIP,8,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Indonesia,CIP,31,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+India,CIP,1,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Jamaica,CIP,35,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Japan,CIP,96,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Kenya,CIP,2,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+South Korea,CIP,10,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Laos,CIP,8,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Sri Lanka,CIP,5,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Madagascar,CIP,2,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Mexico,CIP,22,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Malaysia,CIP,12,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+New Caledonia,CIP,2,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Nigeria,CIP,54,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Nicaragua,CIP,10,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Niue,CIP,5,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+New Zealand,CIP,7,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Panama,CIP,47,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Peru,CIP,1389,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Philippines,CIP,50,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Papua New Guinea,CIP,472,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Puerto Rico,CIP,34,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Paraguay,CIP,50,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Rwanda,CIP,4,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Singapore,CIP,3,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Solomon Islands,CIP,60,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Thailand,CIP,94,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Tonga,CIP,18,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Taiwan,CIP,355,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Uganda,CIP,4,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Uruguay,CIP,2,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+United States,CIP,201,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Saint Vincent and the Grenadines,CIP,9,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Venezuela,CIP,57,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Viet Nam,CIP,1,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+South Africa,CIP,3,Incoming,Ipomoea batatas,"Wild species, conventional, or improved"
+Brazil,CIP,1,Incoming,Ipomoea cairica,Wild species
+Peru,CIP,3,Incoming,Ipomoea cairica,Wild species
+Venezuela,CIP,1,Incoming,Ipomoea calantha,Wild species
+Peru,CIP,9,Incoming,Ipomoea carnea carnea,Wild species
+Bolivia,CIP,1,Incoming,Ipomoea carnea fistulosa,Wild species
+Peru,CIP,4,Incoming,Ipomoea carnea fistulosa,Wild species
+Venezuela,CIP,2,Incoming,Ipomoea chenopodiifolia,Wild species
+Argentina,CIP,18,Incoming,Ipomoea cordatotriloba,Wild species
+Bolivia,CIP,3,Incoming,Ipomoea cordatotriloba,Wild species
+Colombia,CIP,1,Incoming,Ipomoea cordatotriloba,Wild species
+Mexico,CIP,2,Incoming,Ipomoea cordatotriloba,Wild species
+Paraguay,CIP,66,Incoming,Ipomoea cordatotriloba,Wild species
+Brazil,CIP,3,Incoming,Ipomoea cynanchifolia,Wild species
+Ecuador,CIP,1,Incoming,Ipomoea dubia,Wild species
+Bolivia,CIP,1,Incoming,Ipomoea dumetorum,Wild species
+Colombia,CIP,1,Incoming,Ipomoea dumetorum,Wild species
+Ecuador,CIP,2,Incoming,Ipomoea dumetorum,Wild species
+Peru,CIP,6,Incoming,Ipomoea dumetorum,Wild species
+Guatemala,CIP,1,Incoming,Ipomoea dumosa,Wild species
+Nicaragua,CIP,1,Incoming,Ipomoea dumosa,Wild species
+United States,CIP,1,Incoming,Ipomoea gracilis,Wild species
+Argentina,CIP,79,Incoming,Ipomoea grandifolia,Wild species
+Brazil,CIP,2,Incoming,Ipomoea grandifolia,Wild species
+Paraguay,CIP,39,Incoming,Ipomoea grandifolia,Wild species
+Uruguay,CIP,6,Incoming,Ipomoea grandifolia,Wild species
+Colombia,CIP,5,Incoming,Ipomoea hederifolia,Wild species
+Ecuador,CIP,4,Incoming,Ipomoea hederifolia,Wild species
+Peru,CIP,2,Incoming,Ipomoea hederifolia,Wild species
+Venezuela,CIP,2,Incoming,Ipomoea hederifolia,Wild species
+Ecuador,CIP,1,Incoming,Ipomoea incarnata,Wild species
+Peru,CIP,17,Incoming,Ipomoea incarnata,Wild species
+Argentina,CIP,2,Incoming,Ipomoea indica,Wild species
+Colombia,CIP,2,Incoming,Ipomoea indica,Wild species
+Honduras,CIP,1,Incoming,Ipomoea indica,Wild species
+Ecuador,CIP,1,Incoming,Ipomoea jujuyensis,Wild species
+Argentina,CIP,4,Incoming,Ipomoea leucantha,Wild species
+Colombia,CIP,5,Incoming,Ipomoea leucantha,Wild species
+Ecuador,CIP,2,Incoming,Ipomoea leucantha,Wild species
+Mexico,CIP,1,Incoming,Ipomoea leucantha,Wild species
+Peru,CIP,1,Incoming,Ipomoea leucantha,Wild species
+Ecuador,CIP,4,Incoming,Ipomoea meyeri,Wild species
+Venezuela,CIP,1,Incoming,Ipomoea meyeri,Wild species
+Guatemala,CIP,1,Incoming,Ipomoea microsepala,Wild species
+Peru,CIP,1,Incoming,Ipomoea minuta,Wild species
+Mexico,CIP,1,Incoming,Ipomoea minutiflora,Wild species
+Venezuela,CIP,4,Incoming,Ipomoea minutiflora,Wild species
+Peru,CIP,1,Incoming,Ipomoea nationis,Wild species
+Bolivia,CIP,1,Incoming,Ipomoea nil,Wild species
+Colombia,CIP,1,Incoming,Ipomoea nil,Wild species
+Ecuador,CIP,7,Incoming,Ipomoea nil,Wild species
+Japan,CIP,1,Incoming,Ipomoea nil,Wild species
+Peru,CIP,15,Incoming,Ipomoea nil,Wild species
+Paraguay,CIP,1,Incoming,Ipomoea nil,Wild species
+Venezuela,CIP,9,Incoming,Ipomoea nil,Wild species
+Cuba,CIP,1,Incoming,Ipomoea obscura,Wild species
+Dominican Republic,CIP,1,Incoming,Ipomoea obscura,Wild species
+Dominican Republic,CIP,1,Incoming,Ipomoea ochracea,Wild species
+Jamaica,CIP,1,Incoming,Ipomoea ochracea,Wild species
+Argentina,CIP,1,Incoming,Ipomoea parasitica,Wild species
+Nicaragua,CIP,1,Incoming,Ipomoea parasitica,Wild species
+Venezuela,CIP,2,Incoming,Ipomoea parasitica,Wild species
+Peru,CIP,1,Incoming,Ipomoea pauciflora,Wild species
+Peru,CIP,2,Incoming,Ipomoea peruviana,Wild species
+Ecuador,CIP,1,Incoming,Ipomoea pescaprae,Wild species
+Mexico,CIP,1,Incoming,Ipomoea pescaprae,Wild species
+Venezuela,CIP,1,Incoming,Ipomoea pescaprae,Wild species
+Ecuador,CIP,1,Incoming,Ipomoea phyllomega,Wild species
+Ecuador,CIP,3,Incoming,Ipomoea piurensis,Wild species
+Peru,CIP,4,Incoming,Ipomoea piurensis,Wild species
+Venezuela,CIP,1,Incoming,Ipomoea piurensis,Wild species
+Argentina,CIP,1,Incoming,Ipomoea platensis,Wild species
+Bolivia,CIP,2,Incoming,Ipomoea purpurea,Wild species
+Colombia,CIP,7,Incoming,Ipomoea purpurea,Wild species
+Ecuador,CIP,6,Incoming,Ipomoea purpurea,Wild species
+Peru,CIP,66,Incoming,Ipomoea purpurea,Wild species
+Venezuela,CIP,6,Incoming,Ipomoea purpurea,Wild species
+Ecuador,CIP,5,Incoming,Ipomoea quamoclit,Wild species
+Guatemala,CIP,1,Incoming,Ipomoea quamoclit,Wild species
+Panama,CIP,1,Incoming,Ipomoea quamoclit,Wild species
+Peru,CIP,2,Incoming,Ipomoea quamoclit,Wild species
+Venezuela,CIP,4,Incoming,Ipomoea quamoclit,Wild species
+Argentina,CIP,3,Incoming,Ipomoea ramosissima,Wild species
+Bolivia,CIP,6,Incoming,Ipomoea ramosissima,Wild species
+Colombia,CIP,2,Incoming,Ipomoea ramosissima,Wild species
+Ecuador,CIP,1,Incoming,Ipomoea ramosissima,Wild species
+Nicaragua,CIP,2,Incoming,Ipomoea ramosissima,Wild species
+Peru,CIP,17,Incoming,Ipomoea ramosissima,Wild species
+Peru,CIP,2,Incoming,Ipomoea regnelii,Wild species
+Colombia,CIP,1,Incoming,Ipomoea reticulata,Wild species
+Nicaragua,CIP,1,Incoming,Ipomoea santarosae,Wild species
+Peru,CIP,1,Incoming,Ipomoae sawyeri,Wild species
+Dominican Republic,CIP,1,Incoming,Ipomoae setifera,Wild species
+Argentina,CIP,2,Incoming,Ipomoea spp,"Wild species, and improved"
+Bolivia,CIP,1,Incoming,Ipomoea spp,"Wild species, and improved"
+Colombia,CIP,3,Incoming,Ipomoea spp,"Wild species, and improved"
+Japan,CIP,48,Incoming,Ipomoea spp,"Wild species, and improved"
+Bolivia,CIP,1,Incoming,Ipomoea squamosa,Wild species
+Colombia,CIP,7,Incoming,Ipomoea squamosa,Wild species
+Ecuador,CIP,1,Incoming,Ipomoea squamosa,Wild species
+Guatemala,CIP,3,Incoming,Ipomoea squamosa,Wild species
+Mexico,CIP,1,Incoming,Ipomoea squamosa,Wild species
+Nicaragua,CIP,3,Incoming,Ipomoea squamosa,Wild species
+Peru,CIP,6,Incoming,Ipomoea squamosa,Wild species
+Cuba,CIP,20,Incoming,Ipomoea tiliacea,Wild species
+Dominican Republic,CIP,5,Incoming,Ipomoea tiliacea,Wild species
+Guatemala,CIP,1,Incoming,Ipomoea tiliacea,Wild species
+Jamaica,CIP,6,Incoming,Ipomoea tiliacea,Wild species
+Mexico,CIP,2,Incoming,Ipomoea tiliacea,Wild species
+Nicaragua,CIP,7,Incoming,Ipomoea tiliacea,Wild species
+Colombia,CIP,1,Incoming,Ipomoea tricolor,Wild species
+Peru,CIP,2,Incoming,Ipomoea tricolor,Wild species
+Colombia,CIP,24,Incoming,Ipomoea trifida,Wild species
+Cuba,CIP,8,Incoming,Ipomoea trifida,Wild species
+Guatemala,CIP,53,Incoming,Ipomoea trifida,Wild species
+Mexico,CIP,2,Incoming,Ipomoea trifida,Wild species
+Nicaragua,CIP,56,Incoming,Ipomoea trifida,Wild species
+Venezuela,CIP,24,Incoming,Ipomoea trifida,Wild species
+Colombia,CIP,13,Incoming,Ipomoea triloba,Wild species
+Cuba,CIP,7,Incoming,Ipomoea triloba,Wild species
+Dominican Republic,CIP,4,Incoming,Ipomoea triloba,Wild species
+Ecuador,CIP,4,Incoming,Ipomoea triloba,Wild species
+Mexico,CIP,6,Incoming,Ipomoea triloba,Wild species
+Peru,CIP,10,Incoming,Ipomoea triloba,Wild species
+Philippines,CIP,1,Incoming,Ipomoea triloba,Wild species
+Paraguay,CIP,1,Incoming,Ipomoea triloba,Wild species
+Venezuela,CIP,7,Incoming,Ipomoea triloba,Wild species
+Mexico,CIP,2,Incoming,Ipomoea umbraticola,Wild species
+Nicaragua,CIP,3,Incoming,Ipomoea umbraticola,Wild species
+Ecuador,CIP,1,Incoming,Ipomoea velardei,Wild species
+Mexico,CIP,1,Incoming,Ipomoea violacea,Wild species
+Dominican Republic,CIP,1,Incoming,Ipomoea wrightii,Wild species
+Ecuador,CIP,1,Incoming,Ipomoea wrightii,Wild species
+Mexico,CIP,1,Incoming,Ipomoea wrightii,Wild species
+Peru,CIP,1,Incoming,Ipomoea wrightii,Wild species
+Peru,CIP,31,Incoming,Lepidium meyenni,Conventional variety
+Bolivia,CIP,2,Incoming,Lepidium spp,Wild species
+Ecuador,CIP,1,Incoming,Lepidium spp,Wild species
+Peru,CIP,2,Incoming,Lepidium spp,Wild species
+Peru,CIP,3,Incoming,Oxalis spp,Wild species
+Argentina,CIP,41,Incoming,Oxalis tuberosa,Conventional variety
+Bolivia,CIP,74,Incoming,Oxalis tuberosa,Conventional variety
+Chile,CIP,7,Incoming,Oxalis tuberosa,Conventional variety
+Peru,CIP,116,Incoming,Oxalis tuberosa,Conventional variety
+Argentina,CIP,1,Incoming,Smallanthus sonchifolius,Conventional variety
+Bolivia,CIP,3,Incoming,Smallanthus sonchifolius,Conventional variety
+Peru,CIP,24,Incoming,Smallanthus sonchifolius,Conventional variety
+Bolivia,CIP,89,Incoming,Solanum acaule,Wild species
+Peru,CIP,212,Incoming,Solanum acaule,Wild species
+Peru,CIP,3,Incoming,Solanum acroglossum,Wild species
+Peru,CIP,2,Incoming,Solanum acroscopicum,Wild species
+Bolivia,CIP,10,Incoming,Solanum ajanhuiri,Conventional variety
+Peru,CIP,1,Incoming,Solanum ajanhuiri,Conventional variety
+Bolivia,CIP,14,Incoming,Solanum alandiae,Wild species
+Peru,CIP,8,Incoming,Solanum albicans,Wild species
+Ecuador,CIP,1,Incoming,Solanum albornozzii,Wild species
+Peru,CIP,13,Incoming,Solanum ambosinum,Wild species
+Peru,CIP,3,Incoming,Solanum ancophilum,Wild species
+Bolivia,CIP,21,Incoming,Solanum bethaultii,Wild species
+Peru,CIP,1,Incoming,Solanum blanco-galdosii,Wild species
+Bolivia,CIP,6,Incoming,Solanum boliviense,Wild species
+Mexico,CIP,4,Incoming,Solanum brachistotrichum,Wild species
+Bolivia,CIP,6,Incoming,Solanum brevicaule,Wild species
+Chile,CIP,1,Incoming,Solanum brevidens,Wild species
+Peru,CIP,262,Incoming,Solanum bukasovii,Wild species
+Mexico,CIP,4,Incoming,Solanum bulbocastanum bulbocastanum,Wild species
+Peru,CIP,1,Incoming,Solanum cajamarquense,Wild species
+Peru,CIP,1,Incoming,Solanum canasense,Wild species
+Bolivia,CIP,1,Incoming,Solanum candelarianum,Wild species
+Bolivia,CIP,12,Incoming,Solanum candolleanum,Wild species
+Bolivia,CIP,3,Incoming,Solanum capsicibaccatum,Wild species
+Mexico,CIP,2,Incoming,Solanum cardiophyllum cardiophyllum,Wild species
+Bolivia,CIP,1,Incoming,Solanum chacoense,Wild species
+Paraguay,CIP,14,Incoming,Solanum chacoense,Wild species
+Argentina,CIP,1,Incoming,Solanum chaucha,Conventional variety
+Bolivia,CIP,19,Incoming,Solanum chaucha,Conventional variety
+Colombia,CIP,1,Incoming,Solanum chaucha,Conventional variety
+Ecuador,CIP,6,Incoming,Solanum chaucha,Conventional variety
+Peru,CIP,68,Incoming,Solanum chaucha,Conventional variety
+Peru,CIP,1,Incoming,Solanum chavinense,Wild species
+Peru,CIP,6,Incoming,Solanum chiquidenum,Wild species
+Peru,CIP,27,Incoming,Solanum chomatophilum,Wild species
+Bolivia,CIP,5,Incoming,Solanum circaeifolium circaeifolium,Wild species
+Peru,CIP,20,Incoming,Solanum coelestipetalum,Wild species
+Colombia,CIP,5,Incoming,Solanum colombianum,Wild species
+Ecuador,CIP,5,Incoming,Solanum colombianum,Wild species
+Venezuela,CIP,1,Incoming,Solanum colombianum,Wild species
+Uruguay,CIP,48,Incoming,Solanum commersonii commersonii,Wild species
+Argentina,CIP,2,Incoming,Solanum curtilobum,Conventional variety
+Bolivia,CIP,5,Incoming,Solanum curtilobum,Conventional variety
+Peru,CIP,4,Incoming,Solanum curtilobum,Conventional variety
+Venezuela,CIP,2,Incoming,Solanum curtilobum,Conventional variety
+Mexico,CIP,9,Incoming,Solanum demissum,Wild species
+Bolivia,CIP,1,Incoming,Solanum doddsii,Wild species
+Peru,CIP,2,Incoming,Solanum dolichocremastrum,Wild species
+Chile,CIP,2,Incoming,Solanum etuberosum,Wild species
+Mexico,CIP,7,Incoming,Solanum fendleri fendleri,Wild species
+Chile,CIP,1,Incoming,Solanum fernandezianum,Wild species
+Colombia,CIP,2,Incoming,Solanum flahaultii,Wild species
+Bolivia,CIP,2,Incoming,Solanum hondelmannii,Wild species
+Mexico,CIP,5,Incoming,Solanum hougasii,Wild species
+Peru,CIP,6,Incoming,Solanum huancabambense,Wild species
+Peru,CIP,2,Incoming,Solanum huarochiriense,Wild species
+Peru,CIP,4,Incoming,Solanum hypacrarthrum,Wild species
+Peru,CIP,3,Incoming,Solanum immite,Wild species
+Bolivia,CIP,5,Incoming,Solanum infundibuliforme,Wild species
+Mexico,CIP,3,Incoming,Solanum iopetalum,Wild species
+Peru,CIP,3,Incoming,Solanum irosinum,Wild species
+Peru,CIP,2,Incoming,Solanum jalcae,Wild species
+Argentina,CIP,1,Incoming,Solanum juzepczukii,Conventional variety
+Bolivia,CIP,14,Incoming,Solanum juzepczukii,Conventional variety
+Peru,CIP,11,Incoming,Solanum juzepczukii,Conventional variety
+Peru,CIP,1,Incoming,Solanum laxissimum,Wild species
+Bolivia,CIP,12,Incoming,Solanum leptophyes,Wild species
+Peru,CIP,3,Incoming,Solanum leptophyes,Wild species
+Bolivia,CIP,1,Incoming,Solanum leptopyes sparsipilum,Wild species
+Peru,CIP,3,Incoming,Solanum lignicaule,Wild species
+Colombia,CIP,2,Incoming,Solanum lobbianum,Wild species
+Peru,CIP,3,Incoming,Solanum lycopersicoides,Wild species
+Chile,CIP,2,Incoming,Solanum maglia,Wild species
+Peru,CIP,20,Incoming,Solanum marinasense,Wild species
+Peru,CIP,7,Incoming,Solanum medians,Wild species
+Bolivia,CIP,15,Incoming,Solanum megistacrolobum,Wild species
+Peru,CIP,3,Incoming,Solanum megistacrolobum,Wild species
+Bolivia,CIP,4,Incoming,Solanum microdontum gigantophyllum,Wild species
+Bolivia,CIP,7,Incoming,Solanum microdontum microdontum,Wild species
+Ecuador,CIP,1,Incoming,Solanum minutifoliolum,Wild species
+Peru,CIP,3,Incoming,Solanum mochiquense,Wild species
+Mexico,CIP,2,Incoming,Solanum morelliforme,Wild species
+Peru,CIP,26,Incoming,Solanum multiinterruptum,Wild species
+Bolivia,CIP,1,Incoming,Solanum neocardenasii,Wild species
+Peru,CIP,1,Incoming,Solanum ochranthum,Wild species
+Bolivia,CIP,7,Incoming,Solanum okadae,Wild species
+Bolivia,CIP,14,Incoming,Solanum oplocense,Wild species
+Peru,CIP,8,Incoming,Solanum orophilum,Wild species
+Mexico,CIP,1,Incoming,Solanum oxycarpum,Wild species
+Ecuador,CIP,3,Incoming,Solanum paucijugum,Wild species
+Peru,CIP,6,Incoming,Solanum paucissectum,Wild species
+Peru,CIP,1,Incoming,Solanum paucissectum piurae,Wild species
+Peru,CIP,1,Incoming,Solanum pennellii,Wild species
+Bolivia,CIP,3,Incoming,Solanum phureja estradae,Conventional variety
+Colombia,CIP,86,Incoming,Solanum phureja estradae,Conventional variety
+Ecuador,CIP,30,Incoming,Solanum phureja estradae,Conventional variety
+Peru,CIP,17,Incoming,Solanum phureja estradae,Conventional variety
+Mexico,CIP,1,Incoming,Solanum pinnatisectum,Wild species
+Peru,CIP,5,Incoming,Solanum piurae,Wild species
+Mexico,CIP,2,Incoming,Solanum polyadenium,Wild species
+Mexico,CIP,11,Incoming,Solanum polytrichon,Wild species
+Peru,CIP,66,Incoming,Solanum raphanifolium,Wild species
+Peru,CIP,2,Incoming,Solanum santolallae,Wild species
+Peru,CIP,1,Incoming,Solanum scabrifolium,Wild species
+Chile,CIP,2,Incoming,Solanum sitiens,Wild species
+Peru,CIP,5,Incoming,Solanum sogarandinum,Wild species
+Argentina,CIP,3,Incoming,Solanum spp,"Wild species, conventional, or improved"
+Brazil,CIP,1,Incoming,Solanum spp,"Wild species, conventional, or improved"
+Chile,CIP,3,Incoming,Solanum spp,"Wild species, conventional, or improved"
+Colombia,CIP,20,Incoming,Solanum spp,"Wild species, conventional, or improved"
+Ecuador,CIP,2,Incoming,Solanum spp,"Wild species, conventional, or improved"
+United Kingdom,CIP,2,Incoming,Solanum spp,"Wild species, conventional, or improved"
+India,CIP,13,Incoming,Solanum spp,"Wild species, conventional, or improved"
+Mexico,CIP,36,Incoming,Solanum spp,"Wild species, conventional, or improved"
+Peru,CIP,38,Incoming,Solanum spp,"Wild species, conventional, or improved"
+El Salvador,CIP,1,Incoming,Solanum spp,"Wild species, conventional, or improved"
+Bolivia,CIP,24,Incoming,Solanum sparsipilum sparsipilum,Wild species
+Peru,CIP,14,Incoming,Solanum sparsipilum sparsipilum,Wild species
+Costa Rica,CIP,1,Incoming,Solanum stenotomum goniocalyx,Conventional variety
+Peru,CIP,45,Incoming,Solanum stenotomum goniocalyx,Conventional variety
+Argentina,CIP,3,Incoming,Solanum stenotomum stenotomum,Conventional variety
+Bolivia,CIP,81,Incoming,Solanum stenotomum stenotomum,Conventional variety
+Colombia,CIP,1,Incoming,Solanum stenotomum stenotomum,Conventional variety
+Ecuador,CIP,3,Incoming,Solanum stenotomum stenotomum,Conventional variety
+Peru,CIP,195,Incoming,Solanum stenotomum stenotomum,Conventional variety
+Mexico,CIP,2,Incoming,Solanum stoloniferum stoloniferum,Wild species
+Venezuela,CIP,1,Incoming,Solanum subpanduratim,Wild species
+Bolivia,CIP,3,Incoming,Solanum sucrense,Wild species
+Ecuador,CIP,2,Incoming,Solanum suffrutescens,Wild species
+Bolivia,CIP,11,Incoming,Solanum tarijense,Wild species
+Bolivia,CIP,8,Incoming,Solanum toralapanum,Wild species
+Argentina,CIP,68,Incoming,Solanum tuberosum andigena,Conventional or improved variety
+Bolivia,CIP,294,Incoming,Solanum tuberosum andigena,Conventional or improved variety
+Colombia,CIP,145,Incoming,Solanum tuberosum andigena,Conventional or improved variety
+Ecuador,CIP,210,Incoming,Solanum tuberosum andigena,Conventional or improved variety
+Guatemala,CIP,29,Incoming,Solanum tuberosum andigena,Conventional or improved variety
+Mexico,CIP,26,Incoming,Solanum tuberosum andigena,Conventional or improved variety
+Peru,CIP,1758,Incoming,Solanum tuberosum andigena,Conventional or improved variety
+Venezuela,CIP,36,Incoming,Solanum tuberosum andigena,Conventional or improved variety
+Argentina,CIP,17,Incoming,Solanum tuberosum tuberosum,Conventional or improved variety
+Bolivia,CIP,1,Incoming,Solanum tuberosum tuberosum,Conventional or improved variety
+Brazil,CIP,6,Incoming,Solanum tuberosum tuberosum,Conventional or improved variety
+Chile,CIP,127,Incoming,Solanum tuberosum tuberosum,Conventional or improved variety
+Ecuador,CIP,1,Incoming,Solanum tuberosum tuberosum,Conventional or improved variety
+United Kingdom,CIP,4,Incoming,Solanum tuberosum tuberosum,Conventional or improved variety
+Guatemala,CIP,1,Incoming,Solanum tuberosum tuberosum,Conventional or improved variety
+Mexico,CIP,13,Incoming,Solanum tuberosum tuberosum,Conventional or improved variety
+Peru,CIP,2,Incoming,Solanum tuberosum tuberosum,Conventional or improved variety
+Venezuela,CIP,1,Incoming,Solanum tuberosum tuberosum,Conventional or improved variety
+Bolivia,CIP,1,Incoming,Solanum tuberosum x andigena,Conventional or improved variety
+Colombia,CIP,2,Incoming,Solanum tuberosum x andigena,Conventional or improved variety
+Ecuador,CIP,3,Incoming,Solanum tuberosum x andigena,Conventional or improved variety
+Mexico,CIP,1,Incoming,Solanum tuberosum x andigena,Conventional or improved variety
+Peru,CIP,13,Incoming,Solanum tuberosum x andigena,Conventional or improved variety
+Venezuela,CIP,1,Incoming,Solanum tuberosum x andigena,Conventional or improved variety
+Ecuador,CIP,18,Incoming,Solanum tundalomense,Wild species
+Ecuador,CIP,1,Incoming,Solanum tuquerrense,Wild species
+Bolivia,CIP,1,Incoming,Solanum vidaurrei,Wild species
+Bolivia,CIP,2,Incoming,Solanum violaceimarmoratum,Wild species
+Bolivia,CIP,1,Incoming,Solanum virgultorum,Wild species
+Bolivia,CIP,4,Incoming,Tropaeolum tuberosum tuberosum,Conventional variety
+Peru,CIP,18,Incoming,Tropaeolum tuberosum tuberosum,Conventional variety
+Peru,CIP,2,Incoming,Ullucus sp,Wild species
+Argentina,CIP,39,Incoming,Ullucus tuberosus,Conventional variety
+Bolivia,CIP,72,Incoming,Ullucus tuberosus,Conventional variety
+Chile,CIP,1,Incoming,Ullucus tuberosus,Conventional variety
+Colombia,CIP,4,Incoming,Ullucus tuberosus,Conventional variety
+Ecuador,CIP,2,Incoming,Ullucus tuberosus,Conventional variety
+Peru,CIP,137,Incoming,Ullucus tuberosus,Conventional variety
+CIP,Ghana,100,Outcoming,Unknown,Unknown
+CIP,Nigeria,100,Outcoming,Unknown,Unknown
+CIP,Ethiopia,100,Outcoming,Unknown,Unknown
+CIP,Kenya,100,Outcoming,Unknown,Unknown
+CIP,Tanzania,100,Outcoming,Unknown,Unknown
+CIP,Uganda,100,Outcoming,Unknown,Unknown
+CIP,Malawi,100,Outcoming,Unknown,Unknown
+CIP,Zambia,100,Outcoming,Unknown,Unknown
+CIP,Mozambique,100,Outcoming,Unknown,Unknown
+CIP,China,100,Outcoming,Unknown,Unknown
+CIP,India,100,Outcoming,Unknown,Unknown
+CIP,Viet Nam,100,Outcoming,Unknown,Unknown
+CIP,Bangladesh,100,Outcoming,Unknown,Unknown
+CIP,Georgia,100,Outcoming,Unknown,Unknown
+CIP,Guatemala,100,Outcoming,Unknown,Unknown
+CIP,Honduras,100,Outcoming,Unknown,Unknown
+CIP,Haiti,100,Outcoming,Unknown,Unknown
+CIP,Nicaragua,100,Outcoming,Unknown,Unknown
+CIP,Colombia,100,Outcoming,Unknown,Unknown
+CIP,Ecuador,100,Outcoming,Unknown,Unknown
+CIP,Brazil,100,Outcoming,Unknown,Unknown
+CIP,Bolivia,100,Outcoming,Unknown,Unknown
+CIP,Chile,100,Outcoming,Unknown,Unknown
+CIP,Argentina,100,Outcoming,Unknown,Unknown
+CIP,Madagascar,100,Outcoming,Unknown,Unknown
+CIP,Philippines,100,Outcoming,Unknown,Unknown
+CIP,Indonesia,100,Outcoming,Unknown,Unknown
+CIP,Bhutan,100,Outcoming,Unknown,Unknown
+CIP,Nepal,100,Outcoming,Unknown,Unknown
+CIP,Tajikistan,100,Outcoming,Unknown,Unknown
+CIP,Rwanda,100,Outcoming,Unknown,Unknown
+CIP,Burundi,100,Outcoming,Unknown,Unknown
+CIP,Burkina Faso,100,Outcoming,Unknown,Unknown
