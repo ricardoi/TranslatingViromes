@@ -1,4 +1,4 @@
-# TranslattingViromes
+# TranslatingViromes
 Scripts used for generating figure of translating viromed.
 
 ## Figures
