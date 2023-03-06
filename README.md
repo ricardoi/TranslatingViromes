@@ -14,5 +14,5 @@ Box 1. Virome Management Units
 • **Maize Lethal Necrosis in Kenya**: [Virome_MLN_Kenya_species_Wamaitha18.txt](https://github.com/ricardoi/TranslattingViromes/blob/main/data/Virome_MLN_Kenya_species_Wamaitha18.txt)\
 Summary: Virome study of MLN in Kenya authored by Wamaitha et al., 2018. This virome portrays a good example of viruses identified in a disease complex, and how it can be translated to virome management units.
 
-• **Germplasm transactions**: [CIP]
+• **Germplasm transactions**: [CIP](https://cipotato.org/genebankcip/process/distribution_acquisition/)\
 Summary: Data of germplasm transactions of the Genebank Germplams, at CIP, Lima, Peru.
